@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact form</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<div class="header">
+		<h1>MCDONALD</h1>
+		<p>We don't bite, please contact us</p>
+	</div>
+	<form class="form" id="form" onsubmit="submitForm()" return false;>  
+		<div class="name-block">
+			<div class="form-row-in-name-block">
+				<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First-name" required>
+			</div>
+			<div class="form-row-in-name-block">
+				<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last-name" required>
+			</div>
+		</div>
+		<div class="form-row">
+			<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+		</div>
+		<div class="form-row">
+			<input type="text" class="form-control" id="title" name="title" placeholder="Message title" required>
+		</div>
+		<div class="form-row textarea">
+			<textarea rows="3" type="text" class="form-control" id="message" name="message" placeholder="Drop your message here" required></textarea>
+		</div>
+		<button class="square-button">SEND</button>
+		<span id="status"></span>
+	</form>
+</body>
+</html>
