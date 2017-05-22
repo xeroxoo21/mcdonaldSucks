@@ -1,0 +1,51 @@
+.footer-menu {
+	height: 300px;
+	background-color: rgba(31,31,31,1);
+	color: white;
+}
+
+.footer-menu .row {
+	height: 80%; 
+	padding-top: 40px;
+}
+
+.col-md-2 {
+	height: 100%;
+}
+
+.footer-menu h3 {
+	color: rgba(254,254,254,1);
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: rgba(203,203,203,1);
+}
+
+.footer-main {
+	height: 200px;
+	background-color: black;
+}
+
+.footer-main a {
+	text-decoration: none;
+}
+
+.social-icon-row {
+	margin-top: 40px;
+}
+
+.social-icon-row p {
+	font-size: 20px;
+	color: white;
+}
+
+.social-icon-row img {
+	height: 40px;
+}
+
+@media only screen and (max-width: 990px) {
+	.footer {
+		display: none;
+	}
+}
